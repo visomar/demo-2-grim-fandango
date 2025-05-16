@@ -24,7 +24,7 @@ class Demo2GrimFandangoApplicationTests {
 
 		String response = restTemplate.postForObject("/", pair, String.class);
 
-		assertThat(response).isEqualTo("Celso Flores, enjoy your trip to the Land of the Dead");
+		assertThat(response).isEqualTo("Celso Flores, enjoy your trip through the Land of the Dead");
 	}
 
 	@Test
