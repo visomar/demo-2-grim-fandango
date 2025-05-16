@@ -1,0 +1,6 @@
+- Try to upgrade to 3.0.13
+- Run the following command to apply recipe:
+./mvnw \
+ org.openrewrite.maven:rewrite-maven-plugin:run \
+ -Drewrite.recipeArtifactCoordinates=org.openrewrite.recipe:rewrite-spring:RELEASE \
+ -Drewrite.activeRecipes=org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_0 
